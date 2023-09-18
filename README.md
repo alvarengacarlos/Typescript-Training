@@ -1,2 +1,2 @@
 # Typescript-Training
-Simples examples to training Typescript
+Simple examples to training Typescript

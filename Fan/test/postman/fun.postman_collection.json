@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "95c3bda6-8af2-47d9-abb9-f4ea43c19840",
+		"name": "fun",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/current-velocity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/current-velocity",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"current-velocity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/is-on",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/is-on",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"is-on"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/increase-volocity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/increase-velocity",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"increase-velocity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/decrease-velocity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/decrease-velocity",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"decrease-velocity"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "localhost:3000/api/v1",
+			"type": "default"
+		}
+	]
+}
