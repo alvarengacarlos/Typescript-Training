@@ -1,0 +1,10 @@
+{
+    "tasks": {
+        "start": "deno run --allow-env src/main.ts",
+        "test:unit": "deno test --allow-env"
+    },
+    "fmt": {
+        "semiColons": false,
+        "indentWidth": 4
+    }
+}
